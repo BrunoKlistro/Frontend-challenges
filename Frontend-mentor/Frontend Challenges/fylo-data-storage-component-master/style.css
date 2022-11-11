@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Raleway';
+    font-size: 14px;
+    height: 100vh;
+    background-color: hsl(229, 57%, 11%);
+    background-image: url(img/bg-desktop.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position-y: 330px;
+}
+
+.cards{
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    margin-left: 150px;
+}
+
+.card-logo{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    height: 200px;
+    padding: 30px;
+    border-radius: 8px;
+    border-top-right-radius:100px ;
+    background-color:hsl(228, 56%, 26%);
+}
+
+.img-logo{
+    width: 130px;
+}
+
+.btn button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 30px;
+    margin-right: 10px;
+    background-color: hsl(229, 57%, 11%);
+}
+
+.h-box-1{
+    display: flex;
+}
+
+.card-storage{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 500px;
+    height: 140px;
+    padding: 0 30px;
+    margin-left: 25px;
+    border-radius: 8px;
+    background-color:hsl(228, 56%, 26%);
+}
+
+.description{
+    color:hsl(229, 7%, 55%);
+    margin-bottom: 10px;
+}
+
+.description strong{
+    color: #fff;
+}
+
+.progress-bar{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 16px;
+    border-radius: 8px;
+    background-color: hsla(229, 57%, 11%, 0.486);
+}
+
+.progress-bar-color{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    width: 60%;
+    margin-left: 3px;
+    height: 12px;
+    border-radius:8px;
+    background-image: linear-gradient(to right, hsl(6, 100%, 80%), hsl(335, 100%, 65%));
+}
+
+.progress-bar-color .white-ball{
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    margin-right: 2px;
+    background-color: white;
+}
+
+.h-box-2{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    color: white;
+}
+
+
+.floating-msg-container{
+    display: flex;
+    position: relative;
+    bottom: 115px;
+    right: 180px;
+    font-size: 20px;
+}
+
+.msg{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 150px;
+    height: 60px;
+    background-color: #fff;
+    border-radius: 10px;
+}
+
+.msg strong{
+    font-size: 30px;
+}
+
+.msg span{
+    font-size: 12px;
+    padding-left: 5px;
+    text-transform: uppercase;
+    color: hsl(229, 7%, 55%);
+}
+
+.triangle{
+    border-left: 25px solid transparent;
+    border-top: 25px solid #fff;
+    display: flex;
+    position: relative;
+    top: 52px;
+    right: 25px;
+}

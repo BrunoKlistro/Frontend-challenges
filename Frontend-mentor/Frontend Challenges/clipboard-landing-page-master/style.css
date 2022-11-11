@@ -1,0 +1,302 @@
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Bai Jamjuree', sans-serif;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-image: url(img/bg-header-desktop.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.clip-board{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 50px;
+    margin-top: 70px;
+}
+
+.box-title-clip{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.dark-title-clip{
+    font-size: 40px;
+    font-weight: 600;
+    color: hsl(210, 10%, 33%);
+}
+
+.dark-title{
+    color: hsl(210, 10%, 33%);
+    font-size: 35px;
+    font-weight: 600;
+}
+
+.box-title-clip span{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    color: hsl(201, 11%, 66%);
+}
+
+.btn-dowload{
+    display: flex;
+}
+
+.btn{
+    margin: 30px 10px;
+}
+
+.btn button{
+    border: none;
+    border-radius: 40px;
+    width: 200px;
+    height: 45px;
+    font-size: 18px;
+    font-weight: 400;
+    color: white;
+}
+
+.btn-green{
+    background-color: hsl(171, 66%, 44%);
+    box-shadow: 0 3px 1px hsl(171, 69%, 28%);
+}
+
+.btn-blue{
+    background-color: hsl(233, 100%, 69%);
+    box-shadow: 0 3px 1px hsl(233, 100%, 65%);
+}
+
+.quick-search{
+    display: flex;
+    flex-direction: column;
+}
+
+.box-title-clip2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 70px;
+}
+
+.box-title-clip2 span{
+    width: 47%;
+    text-align: center;
+    color: hsl(201, 11%, 66%);
+}
+
+.box-mac{
+    display: flex;
+}
+
+.img-macbook img{
+    width: 700px;
+    position: relative;
+    right: 30px;
+}
+
+.box-text-mac{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 60px 0 0px 60px;
+}
+
+.box-text{
+    margin: 30px 20px;
+}
+
+.box-text-mac p{
+    color: hsl(210, 10%, 33%);
+    font-size: 20px;
+    font-weight: 600;
+    padding-bottom: 15px;
+}
+
+.box-text-mac span{
+    color: hsl(201, 11%, 66%);
+    font-size: 18px;
+}
+
+.box-text span{
+    display: flex;
+}
+
+.acess-clipboard{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 70px;
+}
+
+.simple-clicks{
+    margin-bottom: 80px;
+}
+
+.simple-clicks  p{
+    text-align: center;
+}
+
+.simple-clicks span{
+    color: hsl(201, 11%, 66%);
+    font-size: 18px;
+}
+
+.simple-clicks .space-text{
+    display: flex;
+    justify-content: center;
+}
+
+.supercharged{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 100px;   
+}
+
+.supercharge{
+    text-align: center;
+    color: hsl(201, 11%, 66%);
+}
+
+.cps-box{
+    display: flex;
+    align-items: flex-start;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.cps{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 350px;
+    margin: 10px;
+}
+
+.cps-img{
+    width: 50px;
+    margin-bottom: 30px;
+}
+
+.cps-img-margin{
+    margin-bottom: 42px;
+}
+
+.cps p{
+    font-size: 25px;
+    font-weight: 600;
+    color:hsl(210, 10%, 33%);
+    padding-bottom: 15px;
+}
+
+.cps span{
+    display: flex;
+    align-items: center;
+    color:hsl(201, 11%, 66%);
+    line-height: 35px;
+}
+
+.logos{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin-bottom: 200px;
+}
+
+.icon-logos img{
+    padding: 0 44px;
+}
+
+.clip-board-bottom{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.clip-board-bottom p{
+    margin-bottom: 20px;
+}
+
+.clip-board-bottom span{
+    margin-bottom: 20px;
+}
+
+.btn-dowload-bottom{
+    display: flex;
+    margin-bottom: 130px;
+}
+
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    height: 150px;
+    background-color:hsla(202, 11%, 66%, 0.288);
+}
+
+ul li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: hsl(210, 10%, 33%);
+}
+
+.links{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap:1em 8em;
+}
+
+.img-footer img{
+    width: 100px;
+}
+
+.icons-footer img{
+    padding: 10px;
+}
+
+/* Hover */
+
+button:hover{
+    cursor: pointer;
+}
+
+.btn-green:hover{
+    background-color: hsl(168, 69%, 50%);
+    box-shadow: 0 3px 1px hsl(171, 69%, 28%);
+}
+
+.btn-blue:hover{
+    background-color: hsl(233, 100%, 76%);
+    box-shadow: 0 3px 1px hsl(233, 100%, 65%);
+}
+
+.querys a:hover{
+    color: hsl(233, 100%, 69%);
+}
+
+a img:hover{
+    filter: invert(60%) sepia(61%)saturate(474%)hue-rotate(122deg)brightness(90%)contrast(94%);
+}
